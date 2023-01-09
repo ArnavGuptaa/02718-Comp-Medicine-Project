@@ -16,6 +16,8 @@ accurate sub-type classification crucial in the course of treatment
 This project used publicly available gene expression and CNV data and clinical information from The Cancer Genome Atlas (TCGA).
 
 ## Workflow
+<img width="811" alt="Screenshot 2023-01-09 at 1 08 56 PM" src="https://user-images.githubusercontent.com/52592007/211315723-8faef8d1-add6-4bf3-8e4f-92b3df604389.png">
+
 1. This project aims to use Autoencoders for unsupervised for dimensionality reduction. We built 4 different autoencoders using pytorch - GE, CNV, GE + CNV, GE + CNV ensemble  
 2. We visualised the data using PCA and t-SNE
 3. We further aim to classify between the ALC and SCLC using supervised machine learning models Support Vector Machine (SVM) and Random Forest and compare the results for mono-omic and multi-omic data using a 5-fold Cross
